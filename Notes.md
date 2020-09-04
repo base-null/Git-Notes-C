@@ -38,3 +38,11 @@ p.waitFor()
 ---
 *Shells Info for Pentest Monkey*
 [Pentest Monkey](http://pentestmonkey.net "Web Pentest-Monkey")
+
+## Ports Enumeration
+---
+> nmap
+```nmap
+nmap -p- --open -T5 -v -n -oG AllPorts IP
+```
+---
