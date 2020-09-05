@@ -39,10 +39,16 @@ p.waitFor()
 *Shells Info for Pentest Monkey*
 [Pentest Monkey](http://pentestmonkey.net "Web Pentest-Monkey")
 
-## Ports Enumeration
+## Ports Enumeration And Network Enumeration 
 ---
-> nmap
-```nmap
+> Nmap Scanning Ports - Port versions and scripts
+```
 nmap -p- --open -T5 -v -n -oG AllPorts IP
+
+nmap -sC -sV -pPORTS -oN NmapScan IP
+```
+> Nmap Network Enumeration
+```
+nmap -sn -n YOURIP/24 -oN NetworkScan
 ```
 ---
