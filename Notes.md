@@ -52,3 +52,4 @@ nmap -sC -sV -pPORTS -oN NmapScan IP
 nmap -sn -n YOURIP/24 -oN NetworkScan
 ```
 ---
+
